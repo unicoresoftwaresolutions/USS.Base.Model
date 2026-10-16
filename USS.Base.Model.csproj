@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+
+    <PackageId>UnicoreSoftwareSolutions.Base.Model</PackageId>
+    <Version>1.0.0</Version>
+    <Authors>Unicore Software Solutions</Authors>
+    <Product>USS.Base.Model</Product>
+    <RepositoryUrl>https://github.com/unicoresoftwaresolutions/USS.Base.Model</RepositoryUrl>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
+    <WebPage>https://unicoresoftwaresolutions.com/</WebPage>
+
+
+  </PropertyGroup>
+  <ItemGroup>
+    <None Include="README.md" Pack="true" PackagePath="\"/>
+    <None Include="LICENSE.txt" Pack="true" PackagePath=""/>
+  </ItemGroup>
+</Project>
